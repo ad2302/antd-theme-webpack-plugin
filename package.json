@@ -17,13 +17,14 @@
   ],
   "devDependencies": {
     "eslint": "^6.6.0",
-    "prettier": "^1.19.1",
-    "husky": "^3.0.9",
-    "lint-staged": "^9.4.3",
+    "antd": "^4.16.13",
     "eslint-config-prettier": "^6.6.0",
-    "eslint-plugin-prettier": "^3.1.1",
     "eslint-config-xo": "^0.27.2",
-    "jest": "^26.1.0"
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "jest": "^26.1.0",
+    "lint-staged": "^9.4.3",
+    "prettier": "^1.19.1"
   },
   "engines": {
     "npm": ">= 4.0.0"
@@ -67,5 +68,16 @@
   "jest": {
     "testEnvironment": "node"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fast-glob": "^3.2.7",
+    "less-bundle-promise": "^1.0.7",
+    "less-plugin-npm-import": "^2.1.0",
+    "postcss-less": "^5.0.0",
+    "strip-css-comments": "^4.1.0"
+  },
+  "peerDependencies": {
+    "less": ">= 3.0.0",
+    "postcss": ">= 7.0.0"
+  }
 }
